@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <link rel="stylesheet" href="estilos/trivia.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <img src="img/logoPregunta.png" alt="img" class="img" id="img">
+    <h1 id="titulo">Trivia</h1>
+
+
+    <div id="pregunta-contenedor">
+        <div class="preguntas">
+            <h2 id="pregunta"></h2>
+            <ol type="A">
+                <li class="opcion"><span id="opcion0" onclick="calcularPuntaje(this)"></span></li>
+                <li class="opcion"><span id="opcion1" onclick="calcularPuntaje(this)"></span></li>
+                <li class="opcion"><span id="opcion2" onclick="calcularPuntaje(this)"></span></li>
+                <li class="opcion"><span id="opcion3" onclick="calcularPuntaje(this)"></span></li>
+            </ol>
+            <h4 id="stat"></h4>
+        </div>
+
+        <div class="botones">
+            <button type="button" class="siguiente">Siguiente</button>
+        </div>
+    </div>
+
+    <div id="tablapuntaje">
+        <img src="img/logoPregunta.png" alt="" class="" id="" >
+        <h2 id="tituloPuntaje">Tu puntaje</h2>
+        <h2 id="puntaje"></h2>
+        <a href="inicio.html"><button type="button" id="btn-puntaje" onclick="salirTrivia">Salir a la trivia</button></a>
+        <button type="button" id="ver-respuesta" onclick="verRespuesta()">Ver respuesta</button>
+
+    </div>
+
+    <div id="respuestaContenedor">
+        <h2>Respuestas :</h2>
+        <ol type="1" id="respuestas">
+
+        </ol>
+        <a href="inicio.html"><button type="button" id="btn-puntaje" onclick="salirTrivia">Salir a la trivia</button><a href="inicio.html"></a>
+   
+    </div>
+    
+    <script src="js/trivia.js"></script>
+</body>
+</html>

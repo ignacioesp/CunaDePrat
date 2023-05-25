@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+}
+.slider-frame {
+	width: 1280px;
+    height: auto;
+	margin:20px auto 0;
+	overflow: hidden;
+    border-radius: 40px;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+	border-radius: 4px;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.abajo{
+    margin-left: 35px;
+    font-family:Verdana, sans-serif;
+    color: #585858;
+    font-size: 15px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.casa{
+    float: left;
+    height: 32%;
+    width: 32%;
+    margin: 5px;
+    margin-left: 40px;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+.Insti{
+    color: #585858;
+}
+.audio{
+    float:none;
+}
+.derech{
+    margin: 80px;
+    color: #585858;
+    margin: 10px;
+    text-align: center;
+}
+.dere{
+    text-align: right;
+    margin-right: 35px;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    min-height: 70px;
+    background-color: #043c74;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 90px;
+    width: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.cuna-prat{
+    border-radius: 30px;
+    margin-top: 5px;
+    border-bottom-left-radius: 30px ;
+    border-bottom-right-radius: 30px ;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: red;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
+h3{
+    margin-left: 10px;
+    color: #585858;
+}
+h2{
+   font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+   text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family:Verdana, sans-serif;
+    color: #585858;
+    font-size: 15px;
+    margin: 10px;
+    text-align: justify;
+}
+.fondo{
+    background-color: #dbdbdb;
+    border-radius: 20px;
+    margin: 30px;
+    margin-top: 5%;
+}
+
+#header {
+    margin:auto;
+    width:200px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#043c74;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+
+.nav li a:hover {
+    background-color:rgb(0, 0, 255);
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
+.nav li:hover > ul {
+    display:block;
+}
+img{
+    text-align: center;
+}
+button{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    position:absolute;
+}
+iframe{
+    margin-right: 80px;
+    margin-left: 80px;
+    border-radius: 20px;
+    display:block;
+    margin: 20px auto;
+}
+footer {
+    background-color: #042445;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    color: white;
+}
+.logo-img{
+    width: 20%;
+    height: 20%;
+    margin: 10px;
+}
+.text-center{
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.text-audio{
+    text-align: center;
+}
+.boton-conta{
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-right: 10px;
+}
+.boton-tele{
+    margin-left: 15px;
+    width: 55px;
+    height: 55px;
+    float: left;
+    padding-right: 10px;
+}
+.abierto{
+    float: right;
+    margin: 40px;
+    margin-right: 12%;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.horario{
+    float: right;
+    margin-right: -230px;
+    color: white;
+}
+.cierre{
+    float: right;
+    margin: 40px;
+    margin-right: -13%;
+    font-family:'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+.fecha{
+    float: right;
+    margin-right: 9%;
+    color: white;
+}
+.dato{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.datotitu{
+    text-align: center;
+    color: #585858;
+}
+.restauraciones{
+    border-radius: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width:40%;
+    height:50%
+}
